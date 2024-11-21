@@ -1,0 +1,1 @@
+function handleToggle(){const a=document.getElementById("button__toggle"),b=document.getElementById("navigation");a.classList.toggle("activer"),b.classList.toggle("activer")}let button=document.querySelector("#buttonEffect");button.addEventListener("click",()=>{button.classList.add("clicked")}),$(document).ready(function(){$("#buttonEffect").removeClass("activer")});
